@@ -1,4 +1,4 @@
-# [Qrlew](https://qrlew.github.io/) framework (by Sarus)
+# [Qrlew](https://qrlew.github.io/) framework (by [Sarus](https://www.sarus.tech/))
 Open source SQL manipulation framework written in Rust
 
 ## What is [Qrlew](https://qrlew.github.io/)?
