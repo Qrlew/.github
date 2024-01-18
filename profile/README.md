@@ -37,7 +37,7 @@ At the end of this process, the query string can submitted to the data store of 
 
 # Deep Dive into [Qrlew](https://qrlew.github.io/)
 
-To learn more about [Qrlew](https://qrlew.github.io/) read [Qrlew white paper](https://arxiv.org/pdf/2401.06273.pdf).
+To learn more about [Qrlew](https://qrlew.github.io/) read the [Qrlew white paper](https://arxiv.org/pdf/2401.06273.pdf).
 
 You can cite us:
 ```bibtex
