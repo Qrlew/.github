@@ -21,8 +21,8 @@ At a high level we pursued the following requirements:
 
 * Ease of use for the *data practitioners*. The *data practitioners* are assumed to be data experts but no privacy experts. They should be able to express their queries using the most common dialect for data analysis: SQL.
 * Ease of integration for the *data owner*. SQL is a common language to express data analysis tasks supported by most datastores of all scale.
-* Simplicity for the *data owner* to setup privacy protection. Differential privacy is about capping the sensitivity of a result to the addition or removal of an individual that we call *privacy unit*. [Qrlew](https://qrlew.github.io/) assumes that the *data owner* can tell if a table is public and, if it is not, that it can assign exactly one *privacy unit* to each row of data. In the case there are multiple related tables, [qrlew](https://qrlew.github.io/) enables to define easily the *privacy units* for each table transitively.
-* Simple integration with synthetic data when available. Some queries are not very suitable for DP-rewriting (e.g.: `SELECT * FROM table`), in those cases [qrlew](https://qrlew.github.io/) can use synthetic data as a fallback if provided.
+* Simplicity for the *data owner* to setup privacy protection. Differential privacy is about capping the sensitivity of a result to the addition or removal of an individual that we call *privacy unit*. [Qrlew](https://qrlew.github.io/) assumes that the *data owner* can tell if a table is public and, if it is not, that it can assign exactly one *privacy unit* to each row of data. In the case there are multiple related tables, [Qrlew](https://qrlew.github.io/) enables to define easily the *privacy units* for each table transitively.
+* Simple integration with synthetic data when available. Some queries are not very suitable for DP-rewriting (e.g.: `SELECT * FROM table`), in those cases [Qrlew](https://qrlew.github.io/) can use synthetic data as a fallback if provided.
 
 These requirements dictated the overall *query rewriting* architecture and features.
 
